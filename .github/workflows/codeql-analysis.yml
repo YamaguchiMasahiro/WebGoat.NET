@@ -10,7 +10,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'csharp', 'javascript' ] #後で変更
+        language: [ 'csharp' ] #後で変更
+        # language: [ 'csharp', 'javascript' ] #後で変更
 
     steps:
       - name: Initialize CodeQL
